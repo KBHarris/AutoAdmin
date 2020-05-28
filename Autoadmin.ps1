@@ -1,12 +1,14 @@
-#AutoAdmin
+##########################
+#       AutoAdmin        #
+# Created by Kyle Harris #
+##########################
 
-function Show-Menu { 
 
-    param (
-        [string]$Title = "AutoAdmin"
-    )
+#Main menu loop generation and selection logic 
+function Show-MainMenu { 
+
     Clear-Host
-    Write-Host "========$Title======="
+    Write-Host "========AutoAdmin - Main Menu=======" -ForegroundColor Green
     Write-Host "1: Discovery"
     Write-Host "2: Desktop Support"
     Write-Host "3: Active Directory"
@@ -20,11 +22,9 @@ function Show-Menu {
 
 }
 
-
 do {
 
-
-    Show-Menu -Title "AutoAdmin - Main Menu"
+    Show-MainMenu
     $UserInput = Read-Host "Please make a selection"
     switch ($UserInput){
         

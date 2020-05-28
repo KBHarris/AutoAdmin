@@ -1,0 +1,34 @@
+Discovery(accepts pc name or IP address's as input either from the command line or a file)(options to export all collected data to a CSV)
+  -PC names(filter by OU?)
+  -IP addresses
+  -Service Tag
+  -Last login(user/time)
+  -application list
+  -email list
+Desktop support
+  -Reboot PC
+  -Rename PC
+  -Map drive
+  -Test/Reset TCP/IP connection
+  -Disk space(total/available)
+  -Top 5 running processes
+  -Start/Stop process or service
+  -Remotely install program from list(requires maintaining program repo)
+Active Directory
+  -Create user
+  -Delete user
+  -Change password
+DHCP
+  -Generate scope % free report
+Bitlocker
+  -Turn off bitlocker on remote pc(repeat bitlocker status every 5 minutes)
+  -Turn on bitlocker on remote pc
+Printers
+  -List all printers
+  -Reset all printers to TBN Printing Defaults
+Office 365
+  -Create a user
+  -Disable a user
+  -Remove a user
+  -Change passwords
+
