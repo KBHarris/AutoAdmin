@@ -4,8 +4,8 @@
 ##########################
 
 
-# Menu functions 
-function Show-MainMenu { 
+## Menu functions ## 
+function Show-MainMenu {
 
     Clear-Host
     Write-Host "========AutoAdmin - Main Menu=======" -ForegroundColor Green
@@ -131,7 +131,7 @@ function Show-O365Menu {
 }
 
 
-#Main Loop
+## Main Loop ##
 do {
 
     Show-MainMenu
